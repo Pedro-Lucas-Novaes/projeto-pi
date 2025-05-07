@@ -1,3 +1,5 @@
+/* navbar */
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +50,8 @@ nav {
   margin: 8px;
   transition: 0.3s;
 }
-@media (max-width: 999px) {
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
   body {
     overflow: hidden;
   }
@@ -76,6 +79,45 @@ nav {
 .nav-list.active {
   transform: translateX(0);
 }
+
+@media screen and (max-width: 426px) {
+  body {
+    overflow: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 100vw;
+    height: 92vh;
+    background: #4ad9b2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+    font-size: 18px;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-menu div {
+    width: 28px;
+    height: 2px;
+    background: #ffffff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  .logo {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+}
+
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -94,4 +136,165 @@ nav {
 }
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* footer */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+main {
+  height: 80vh;
+}
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: var(--color-neutral-10);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer_social_media .footer_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+#footer_social_media .footer_link i {
+  font-size: 1rem;
+}
+
+#footer_social_media .footer_link:hover {
+  opacity: 0.8;
+}
+
+#whatsapp {
+  background: linear-gradient(#25d366, #128c7e, #075e54);
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#youtube {
+  background: linear-gradient(#ff0000, #c4302b, #ff0000);
+}
+
+#linkedin {
+  background: linear-gradient(#0077b5, #0e76a8, #0077b5);
+}
+
+.footer_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer_list .footer_link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s ease-in-out;
+}
+
+.footer_list .footer_link:hover {
+  color: #7f37c9;
+}
+
+#footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#footer_subscribe p {
+  color: var(--color-neutral-30);
+}
+
+#input_group {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-0);
+  border-radius: 4px;
+}
+
+#input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#input_group button {
+  background-color: #7f37c9;
+  border: none;
+  color: var(--color-neutral-40);
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+#input_group button:hover {
+  opacity: 0.8;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
 }
