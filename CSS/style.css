@@ -1,5 +1,7 @@
 /* navbar */
-
+body {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -53,7 +55,7 @@ nav {
 
 @media screen and (min-width: 427px) and (max-width: 768px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .nav-list {
     position: absolute;
@@ -82,7 +84,7 @@ nav {
 
 @media screen and (max-width: 426px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .nav-list {
     position: absolute;
