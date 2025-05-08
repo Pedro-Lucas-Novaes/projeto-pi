@@ -373,8 +373,75 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-}
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
 
+  #banner img {
+    height: 50%;
+    width: fit-content;
+  }
+  #banner,
+  #banner img,
+  #home .shape {
+    display: none;
+  }
+  #cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #57e6a8;
+    border-radius: 12px;
+    padding: 0px 3px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s ease;
+  }
+  #phone_button .btn-default {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 8px 10px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+  }
+}
+@media screen and (max-width: 1028px) {
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
+
+  #banner img {
+    height: 50%;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 426px) {
+  #phone_button .btn-default span {
+    display: none;
+  }
+  #phone_button .btn-default .fa-phone {
+    padding-left: 8px;
+  }
+  #banner,
+  #banner img,
+  #home .shape {
+    display: none;
+  }
+}
 /* footer */
 
 /* footer */
