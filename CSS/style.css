@@ -11,7 +11,7 @@
   }
 
   body {
-    background-color: #f6f1eb;
+    background: linear-gradient(#ffffff, #48b890, #ffffff, #48b890);
   }
   .btn-default {
     border: none;
