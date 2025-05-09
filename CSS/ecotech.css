@@ -5,22 +5,57 @@
   justify-content: center;
   gap: 48px;
 }
-#ecotech .shape-ecotech {
-  background-color: red;
+
+#ecotech img {
   width: 100%;
+  max-width: 500px;
+  height: auto;
+  z-index: 2;
+  /* background-color: tomato; */
+}
+
+#ecotech .shape-ecotech {
+  background-color: #f6f1eb;
+  width: 87%;
   height: 100%;
   position: absolute;
   border-radius: 5% 5% 5% 5%;
   top: 130vh;
-  left: 0;
+  left: 50px;
   z-index: 1;
-  opacity: 0;
+  filter: blur(10px);
+  opacity: 0.7;
+}
+
+#ecotech .shape2-ecotech {
+  background-color: #308879;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  border-radius: 8px;
+  top: 144vh;
+  left: 102.5px;
+  z-index: 2;
+}
+
+#ecotech_content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
 }
 
 #ecotech_content .section-title {
-  color: red;
+  color: #ffffff;
+  font-size: 3rem;
 }
 
 #ecotech_content .section-subtitle {
-  color: rgb(25, 0, 255);
+  color: #308879;
+  font-size: 2.4rem;
+}
+
+#ecotech_content .ecotech-description {
+  /* position: relative; */
+  z-index: 3;
 }
