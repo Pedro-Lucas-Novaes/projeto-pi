@@ -1,12 +1,7 @@
-#ecotech {
+#objetivos {
   min-height: calc(100vh - 93px);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 48px;
-}
-#ecotech .shape {
-  font-size: 30000rem;
-  color: #ff0000;
-  z-index: 3;
 }
