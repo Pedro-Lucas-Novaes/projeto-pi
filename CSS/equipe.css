@@ -5,3 +5,11 @@
   justify-content: center;
   gap: 48px;
 }
+
+#equipe_content .section-title {
+  color: red;
+}
+
+#equipe_content .section-subtitle {
+  color: rgb(4, 0, 255);
+}

@@ -5,3 +5,11 @@
   justify-content: center;
   gap: 48px;
 }
+
+#objetivos_content .section-title {
+  color: red;
+}
+
+#objetivos_content .section-subtitle {
+  color: rgb(25, 0, 255);
+}
