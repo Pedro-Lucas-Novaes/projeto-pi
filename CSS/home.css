@@ -1,23 +1,3 @@
-/* .btn-default {
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #a0dac5;
-  border-radius: 12px;
-  padding: 10px 14px;
-  font-weight: 600;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  text-decoration: none;
-  color: #000000;
-  transition: 0.3s ease;
-}
-
-.btn-default:hover {
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
-} */
-
 #home {
   display: flex;
   min-height: calc(100vh - 93px);
@@ -44,11 +24,6 @@
   z-index: 2;
 }
 
-/* #cta .description {
-  font-size: 1.2rem;
-  color: #02403b;
-} */
-
 #cta_buttons {
   display: flex;
   flex-direction: row;
@@ -70,30 +45,6 @@
   text-decoration: none;
   color: #000000;
 }
-
-/* #phone_button {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  padding: 8px 10px;
-  font-weight: 500;
-  border-radius: 12px;
-  transition: all 0.4s ease-in-out;
-} */
-
-/* #phone_button .fa-phone {
-  color: #000000;
-  font-size: 1rem;
-  margin-right: 8px;
-} */
-
-/* #phone_button .fa-phone span {
-  color: #000000;
-  font-size: 0.95rem;
-} */
-/* #phone_button:hover {
-  transform: scale(1.05);
-} */
 
 .social-media-buttons {
   display: flex;
@@ -193,6 +144,57 @@
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 1028px) {
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
+
+  #banner img {
+    height: 60%;
+    margin-left: 3rem;
+    margin-top: 6rem;
+    width: fit-content;
+  }
+
+  /* #banner,
+  #banner img {
+    display: none;
+  } */
+  #cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .shape {
+    background-color: #308879;
+    width: 100%;
+    height: 81%;
+    position: absolute;
+    border-radius: 5% 5% 5% 5%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #57e6a8;
+    border-radius: 12px;
+    padding: 10px 5px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s ease;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -305,18 +307,7 @@
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
   }
 }
-@media screen and (max-width: 1028px) {
-  #home {
-    min-height: 100%;
-    padding-top: 0px;
-  }
 
-  #banner img {
-    height: 100%;
-    width: fit-content;
-    margin-left: 5px;
-  }
-}
 @media screen and (max-width: 426px) {
   /* #phone_button .btn-default span {
     display: none;
