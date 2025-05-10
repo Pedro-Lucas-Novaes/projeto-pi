@@ -8,89 +8,57 @@
 
 #objetivos img {
   width: 100%;
-  /* max-width: 500px; */
   height: auto;
   z-index: 2;
-  margin-top: 5%;
-  margin-left: 12rem;
-  /* background-color: tomato; */
-  z-index: 1;
+  margin-top: -3%;
+  margin-left: 34rem;
+  max-width: 900px;
 }
 
 #objetivos .shape-objetivos {
-  background-color: #f6f1eb;
   width: 40%;
-  height: 95%;
+  height: 97%;
   position: absolute;
   border-radius: 5% 5% 5% 5%;
-  top: 345vh;
-  left: 70px;
-  z-index: 1;
-  filter: blur(2px);
-  z-index: 2;
+  top: 350vh;
+  left: 60px;
+  font-size: 1.9rem;
+  padding-top: 4rem;
+  z-index: 3;
+  color: #02403b;
 }
 
 #objetivos .shape2-objetivos {
   background-color: #5aaa99;
-  width: 40%;
+  width: 35%;
   height: 15%;
   position: absolute;
   border-radius: 8px;
-  top: 338vh;
-  left: 70px;
+  top: 342vh;
+  left: 92px;
   box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.4);
   z-index: 3;
-}
-
-#objetivos_content {
-  width: 50%;
-  height: 10%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 3%;
-  max-width: 340px;
-}
-
-#objetivos .objetivos-description {
-  position: relative;
-  width: 150%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 35%;
-  margin-left: 5rem;
-  gap: 1.5rem;
-  /* background-color: black; */
-  z-index: 4;
-}
-
-#objetivos_content .section-title {
   color: #ffffff;
-  font-size: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-/* #objetivos_content .section-subtitle {
-  color #02403B;
-} */
-
-#objetivos .section-subtitle .lista1 {
-  color: #02403b;
+#objetivos .shape3-objetivos {
+  background-color: #f6f1eb;
+  width: 40%;
+  height: 97%;
+  position: absolute;
+  border-radius: 5% 5% 5% 5%;
+  top: 350vh;
+  left: 60px;
+  z-index: 2;
   font-size: 1.9rem;
-  margin-bottom: 3rem;
-  font-weight: 500;
+  filter: blur(2px);
 }
 
-#objetivos .section-subtitle .lista2 {
-  color: #02403b;
-  font-size: 1.9rem;
-  margin-bottom: 3rem;
-  font-weight: 500;
-}
-
-#objetivos .section-subtitle .lista3 {
-  color: #02403b;
-  font-size: 1.9rem;
-  margin-bottom: 1.5rem;
-  font-weight: 500;
+#objetivos .shape-objetivos li {
+  padding: 2rem;
 }
