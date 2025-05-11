@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 48px;
+  background-color: brown;
 }
 
 #ecotech img {
@@ -57,7 +58,7 @@
   padding: 5rem;
   filter: blur(2px);
 }
-@media (max-width: 1320px) {
+@media screen and (max-width: 1320px) {
   #ecotech .shape-ecotech {
     font-size: 2.2rem;
   }
@@ -66,7 +67,7 @@
   }
 }
 
-@media (max-width: 1170px) {
+@media screen and (max-width: 1170px) {
   #ecotech {
     flex-direction: column;
     padding: 1rem;
@@ -84,7 +85,7 @@
   #ecotech .shape2-ecotech,
   #ecotech .shape3-ecotech {
     position: static;
-    width: 100%;
+    width: 50%;
     padding: 2rem;
     margin-bottom: 15rem;
     font-size: 1.5rem;
@@ -99,10 +100,12 @@
   #ecotech .shape-ecotech {
     background-color: #f6f1eb;
     color: #308879;
+    border-radius: 8px;
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #ecotech {
     flex-direction: column;
     padding: 2rem;
@@ -110,7 +113,7 @@
 
   #ecotech img {
     margin: 0;
-    margin-top: -4rem;
+    margin-top: 0rem;
     width: 100%;
     max-width: 200px;
   }
@@ -136,7 +139,7 @@
   }
 }
 
-@media (max-width: 426px) {
+@media screen and (max-width: 426px) {
   #ecotech .shape-ecotech,
   #ecotech .shape2-ecotech,
   #ecotech .shape3-ecotech {
