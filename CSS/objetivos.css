@@ -62,6 +62,26 @@
 #objetivos .shape-objetivos li {
   padding: 2rem;
 }
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #objetivos img{
+    margin-left: 70rem;
+    margin-top: 5%;
+    
+  }
+  #objetivos .shape2-objetivos{
+    left: 23rem;
+    top: 305vh;
+  }
+  #objetivos .shape-objetivos{
+    left: 20rem;
+    top: 320vh;
+    font-size: 1.9rem;
+  }
+  #objetivos .shape3-objetivos{
+    left: 20rem;
+    top: 315vh;
+  }
+}
 
 @media (max-width: 1360px) {
   #objetivos .shape-objetivos {

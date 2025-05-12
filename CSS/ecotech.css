@@ -57,6 +57,18 @@
   padding: 5rem;
   filter: blur(2px);
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #ecotech{
+    margin-left: 24rem;
+  }
+  #ecotech .shape3-ecotech{
+    margin-top: -8vh;
+    height: 70%;
+    
+  }
+}
+
 @media screen and (max-width: 1320px) {
   #ecotech .shape-ecotech {
     font-size: 2.2rem;

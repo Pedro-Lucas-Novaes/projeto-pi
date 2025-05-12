@@ -63,6 +63,23 @@
   filter: blur(2px);
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #projetos .shape2-projetos{
+    top: 200vh;
+    left: 85rem;
+  }
+  #projetos .shape-projetos{
+    top: 215vh;
+    left: 85rem;
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+  #projetos .shape3-projetos{
+    top: 215vh;
+    left: 85rem;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   #projetos .shape-projetos {
     font-size: 1.6rem;

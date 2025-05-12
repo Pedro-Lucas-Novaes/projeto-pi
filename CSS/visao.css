@@ -66,6 +66,29 @@
   color: #ffffff;
   filter: blur(2px);
 }
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #visao img{
+    margin-right: 50rem;
+    margin-top: 15%;
+  }
+  #visao .shape2-visao{
+    left: 68rem;
+    top: 410vh;
+    font-size: 3rem;
+    
+  }
+  #visao .shape-visao{
+    left: 65rem;
+    top: 415vh;
+    font-size: 2.7rem;
+    padding: 4rem;
+  }
+  #visao .shape3-visao{
+    left: 65rem;
+    top: 415vh;
+  }
+
+}
 
 @media (max-width: 1280px) {
   #visao .shape-visao {

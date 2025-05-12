@@ -52,6 +52,21 @@
   color: #000000;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #equipe .shape-equipe{
+    top: 610vh;
+    left: 23rem;
+  }
+  #shapes {
+    left: 105%;
+    gap: 12rem;
+    
+  }
+  #shapes div{
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 1280px) {
   #shapes {
     left: 130%;

@@ -65,6 +65,25 @@
   filter: blur(2px);
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  #missao img {
+    margin-left: 60rem;
+    margin-top: 25%;
+  }
+  #missao .shape2-missao{
+    left: 175px;
+    top: 520vh;
+    font-size: 4rem;
+  }
+  #missao .shape3-missao{
+    top: 525vh;
+  }
+}
+#missao .shape-missao{
+  top: 525vh;
+  font-size: 3rem;
+}
+
 @media (max-width: 1300px) {
   #missao .shape-missao {
     font-size: 1.8rem;
