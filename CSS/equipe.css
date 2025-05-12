@@ -13,6 +13,7 @@
   z-index: 2;
   margin-top: 30%;
   margin-right: 55rem;
+  margin-bottom: -1.7rem;
 }
 
 #equipe .shape-equipe {
@@ -35,7 +36,7 @@
 
 #shapes {
   position: relative;
-  top: 10%; /* Ajuste conforme necessário */
+  top: 10%;
   left: 123%;
   margin-bottom: 30rem;
   transform: translateX(-50%);
@@ -56,6 +57,9 @@
     left: 130%;
     gap: 8rem;
     margin-bottom: 28rem;
+  }
+  #equipe img {
+    margin-bottom: -1.95rem;
   }
 }
 
@@ -164,6 +168,33 @@
     height: 60px;
     padding: 0.5rem;
     font-size: 0.62rem;
+  }
+  #equipe img {
+    margin-bottom: -1.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  #equipe img {
+    margin-bottom: -2.3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #equipe img {
+    margin-bottom: -3.1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #equipe img {
+    margin-bottom: -4.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  #equipe img {
+    margin-bottom: -5rem;
   }
 }
 

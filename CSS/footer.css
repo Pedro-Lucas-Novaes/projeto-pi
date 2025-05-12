@@ -15,9 +15,6 @@
   letter-spacing: 1px;
 }
 
-/* main {
-  height: 80vh;
-} */
 footer {
   width: 100%;
   color: var(--color-neutral-40);
@@ -36,6 +33,11 @@ footer {
 
 #footer_contacts h1 {
   margin-bottom: 0.75rem;
+}
+
+#footer_contacts p {
+  margin-bottom: 0.75rem;
+  font-size: 10px;
 }
 
 #footer_social_media {
@@ -65,7 +67,7 @@ footer {
 }
 
 #whatsapp {
-  background: linear-gradient(#25d366, #128c7e, #075e54);
+  background: black;
 }
 
 #instagram {

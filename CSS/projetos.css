@@ -52,7 +52,7 @@
 }
 
 #projetos .shape3-projetos {
-  background-color: #88e2ab;
+  background-color: #0e9b8b;
   width: 25%;
   height: 60%;
   position: absolute;
@@ -122,7 +122,7 @@
     display: none;
   }
   #projetos .shape-projetos {
-    background-color: #88e2ab;
+    background-color: #0e9b8b;
     color: #ffffff;
     margin-top: 1rem;
     border-radius: 8px;
@@ -161,7 +161,7 @@
     display: none;
   }
   #projetos .shape-projetos {
-    background-color: #88e2ab;
+    background-color: #0e9b8b;
     color: #ffffff;
   }
 }
