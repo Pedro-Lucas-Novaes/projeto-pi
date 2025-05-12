@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   gap: 48px;
-  background-color: chartreuse;
 }
 
 #visao img {
@@ -103,7 +102,7 @@
   #visao .shape-visao {
     width: 70%;
     height: auto;
-    background-color: rgb(255, 0, 200);
+    background-color: #2e6239;
     padding-top: 4rem;
     font-size: 1.2rem;
     margin-top: 10rem;
